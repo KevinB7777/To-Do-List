@@ -1,0 +1,13 @@
+{
+    "name": "To Do List",
+    "description": "Building a to-do-list chrome extension",
+    "version": "1.0",
+    "manifest_version": 3,
+	"action": {
+		"default_popup": "popup.html"
+	},
+    "permissions": [
+        "storage",
+		"input"
+    ]
+}
